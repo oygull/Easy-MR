@@ -1,0 +1,58 @@
+// Form
+
+.form{
+    padding: 100px 0 0 0;
+    background-color: #0A2633;
+
+    .row{
+        margin: 0;
+    }
+}
+.form__title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #58E065;
+    margin-bottom: 45px;
+}
+.form__app{
+    @include flex-column();
+}
+.form__main{
+    padding-right: 100px;
+}
+.form__input{
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #0E88C1;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+}
+.form_checkbox{
+    margin: 20px 0;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.8;
+    @include align-center();
+    color: #fff;
+    
+        input{
+            margin-right: 10px;
+        }
+
+}
+.form__btm{
+    background-color: $color-primary;
+    width: 170px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form__inner{
+    justify-content: space-between;
+}

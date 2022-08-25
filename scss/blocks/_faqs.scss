@@ -1,0 +1,33 @@
+// FAQs
+
+.faqs{
+    padding: 100px 0;
+    background-color: $color-primary;
+}
+.faqs__list{
+    list-style: none;
+}
+.faqs__ques{
+    cursor: pointer;
+    transition: all 0.2s ease;
+    &:hover{
+        font-weight: 600;
+    }
+    @include flex-between();
+    span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .bx{
+        font-size: 22px;
+    }
+}
+.faqs__answ{
+    font-size: 14px;
+    line-height: 180%;
+    opacity: 0.6;
+    display: none;
+}
+.openUp{
+    display: block;
+}

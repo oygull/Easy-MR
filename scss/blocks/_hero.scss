@@ -1,0 +1,44 @@
+// Hero
+
+.hero{
+    background-image: url("/images/hero-bg.png");
+    width: 100%;
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__inner{
+    @include flex-between();
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: $color-secondary;
+}
+
+.hero__par{
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 80px;
+}
+.site__btn{
+    border: none;
+    cursor: pointer;
+    padding: 16px 64px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: #000000;
+    border-radius: 66px;
+    transition: all ease 0.2s;
+    color: #fff;
+
+        &:hover{
+            background: #58E065;
+            color: $color-secondary;
+        }
+}

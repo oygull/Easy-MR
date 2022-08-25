@@ -1,0 +1,47 @@
+// Footer
+
+.site-footer{
+    padding: 36px 0;
+    background-color: #0A2633;
+}
+.footer__title{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #F5F7FA;
+}
+.footer__inner{
+    @include flex-between();
+}
+.footer__list{
+    @include list-unstyled();
+}
+.footer__link{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #969799;
+    text-decoration: none;
+}
+.footer__item{
+  margin: 0 24px;
+}
+.footer__bottom{
+    margin-top: 30px;
+    @include flex-between();
+}
+.pages__list{
+    @include list-unstyled();
+}
+.pages{
+    margin: 0 24px;
+}
+.pages__link, .copyright{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #969799;
+}
+.copyright{
+    margin-left: 10px;
+}

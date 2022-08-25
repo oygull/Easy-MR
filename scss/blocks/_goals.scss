@@ -1,0 +1,52 @@
+// Goals
+
+.goals{
+    padding: 100px 0;
+    background-color: #2AA7E1;
+    background-image: url('/images/goals-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.goals__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+}
+.goals__list{
+    list-style: none;
+}
+.goals__item{
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    display: flex;
+    &:not(:last-child){
+        margin-bottom: 48px;
+    }
+    &:first-child{
+        &::before{
+            content: '#1';
+            margin-right: 20px;
+            font-size: 12px;
+            opacity: 0.5;
+           }
+    }
+    &:nth-child(2){
+        &::before{
+            content: '#2';
+            margin-right: 20px;
+            font-size: 12px;
+            opacity: 0.5;
+           }
+    }
+    &:nth-child(3){
+        &::before{
+            content: '#3';
+            margin-right: 20px;
+            font-size: 12px;
+            opacity: 0.5;
+           }
+    }
+  
+}
