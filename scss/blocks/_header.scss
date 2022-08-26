@@ -7,6 +7,9 @@
 .header__nav{
     flex-grow: 1;
 }
+.site-header{
+    border-bottom: 1px solid #EDEDED;
+}
 .nav__list{
     @include list-unstyled();
     justify-content: end;

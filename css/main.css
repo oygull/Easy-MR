@@ -63,6 +63,10 @@ img {
   flex-grow: 1;
 }
 
+.site-header {
+  border-bottom: 1px solid #EDEDED;
+}
+
 .nav__list {
   padding: 0;
   margin: 0;
@@ -270,6 +274,9 @@ img {
   .site__btn {
     padding: 10px 28px;
     font-size: 10px;
+  }
+  .hero__inner {
+    padding: 40px 0;
   }
 }
 @media only screen and (max-width: 540px) {
@@ -654,6 +661,7 @@ img {
   font-size: 13px;
   line-height: 16px;
   color: #F5F7FA;
+  margin: 10px;
 }
 
 .footer__inner {
@@ -694,7 +702,7 @@ img {
 }
 
 .pages {
-  margin: 0 24px;
+  margin: 0 20px;
 }
 
 .pages__link, .copyright {
@@ -706,4 +714,25 @@ img {
 
 .copyright {
   margin-left: 10px;
+}
+
+.privacy {
+  padding: 40px 0;
+}
+.privacy p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.7019607843);
+  margin-bottom: 22px;
+}
+
+.privacy__desc {
+  margin-top: 20px;
+}
+
+.privacy__item {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.7019607843);
+  margin-bottom: 8px;
 }/*# sourceMappingURL=main.css.map */

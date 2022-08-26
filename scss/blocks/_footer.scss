@@ -9,6 +9,7 @@
     font-size: 13px;
     line-height: 16px;
     color: #F5F7FA;
+    margin: 10px;
 }
 .footer__inner{
     @include flex-between();
@@ -34,7 +35,7 @@
     @include list-unstyled();
 }
 .pages{
-    margin: 0 24px;
+    margin: 0 20px;
 }
 .pages__link, .copyright{
     font-weight: 500;
