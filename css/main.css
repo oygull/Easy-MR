@@ -19,6 +19,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  width: 100vw;
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
   background-color: #fff;
@@ -112,6 +113,93 @@ img {
   height: 30px;
 }
 
+.header__btn {
+  display: none;
+}
+
+.close-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 1140px) {
+  .nav__item {
+    margin: 16px;
+  }
+  .container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .header__nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.521);
+    overflow: hidden;
+  }
+  .nav__list {
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .nav__list .active {
+    border: none;
+  }
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  .nav__item, .nav__link {
+    display: inline;
+  }
+  .header__lang {
+    display: none;
+  }
+  .header__btn {
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  .header__btn .bx {
+    font-size: 26px;
+  }
+  .header__inner {
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .logo-img {
+    width: 160px;
+    height: 23px;
+  }
+  .bx-menu {
+    font-size: 24px;
+  }
+}
+.open-menu {
+  width: 60vw;
+}
+
+.open-bg {
+  width: 100vw;
+}
+
 .hero {
   background-image: url("/images/hero-bg.png");
   width: 100%;
@@ -159,6 +247,35 @@ img {
   color: #123301;
 }
 
+@media only screen and (max-width: 960px) {
+  .hero__imgbox {
+    display: none;
+  }
+  .site__btn {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .hero__title {
+    font-size: 30px;
+  }
+  .hero__par {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .site__btn {
+    padding: 10px 28px;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .hero__title {
+    font-size: 26px;
+  }
+  .hero__par {
+    font-size: 14px;
+  }
+}
 .title {
   font-size: 32px;
   line-height: 39px;
@@ -191,6 +308,16 @@ img {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 960px) {
+  .about {
+    padding: 30px 0;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .about {
+    padding: 315x 0;
+  }
+}
 .goals {
   padding: 100px 0;
   background-color: #2AA7E1;
@@ -238,6 +365,11 @@ img {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 960px) {
+  .goals {
+    padding: 30px 0;
+  }
+}
 .research {
   padding: 100px 0;
 }
@@ -344,6 +476,39 @@ img {
   width: 60%;
 }
 
+@media only screen and (max-width: 720px) {
+  .reward {
+    padding: 20px 0;
+  }
+  .reward__desc {
+    padding-right: 10px;
+  }
+  .reward__inner {
+    align-items: center;
+    justify-content: center;
+  }
+  .research {
+    padding: 30px 0;
+  }
+  .card__inner {
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .reward__desc {
+    padding-right: 0;
+  }
+  .reward__item {
+    font-size: 10px;
+  }
+  .reward__item::before {
+    width: 22px;
+    height: 22px;
+  }
+  .research__title {
+    font-size: 26px;
+  }
+}
 .form {
   padding: 100px 0 0 0;
   background-color: #0A2633;
@@ -445,8 +610,12 @@ img {
   display: block;
 }
 
+.hide-btn {
+  display: block;
+}
+
 .site-footer {
-  padding: 36px 0;
+  padding: 30px 0;
   background-color: #0A2633;
 }
 
@@ -482,7 +651,7 @@ img {
 }
 
 .footer__bottom {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;

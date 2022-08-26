@@ -1,7 +1,7 @@
 // Footer
 
 .site-footer{
-    padding: 36px 0;
+    padding: 30px 0;
     background-color: #0A2633;
 }
 .footer__title{
@@ -27,7 +27,7 @@
   margin: 0 24px;
 }
 .footer__bottom{
-    margin-top: 30px;
+    margin-top: 10px;
     @include flex-between();
 }
 .pages__list{
