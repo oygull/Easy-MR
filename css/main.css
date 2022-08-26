@@ -68,6 +68,7 @@ img {
   margin: 0;
   list-style: none;
   justify-content: end;
+  transition: all 0.4s ease;
 }
 .nav__list .active {
   border-bottom: 2px solid #58E065;
@@ -247,9 +248,12 @@ img {
   color: #123301;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1000px) {
   .hero__imgbox {
     display: none;
+  }
+  .hero {
+    padding: 30px 0;
   }
   .site__btn {
     margin-bottom: 30px;
@@ -312,10 +316,22 @@ img {
   .about {
     padding: 30px 0;
   }
+  .form__imgbox {
+    display: none;
+  }
+  .form__app {
+    margin-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 540px) {
   .about {
     padding: 315x 0;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 24px;
   }
 }
 .goals {
@@ -368,6 +384,15 @@ img {
 @media only screen and (max-width: 960px) {
   .goals {
     padding: 30px 0;
+  }
+  .footer-logo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .goals__item {
+    font-size: 16px;
+    margin-bottom: 12px;
   }
 }
 .research {
@@ -572,6 +597,11 @@ img {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 7200px) {
+  .form__main {
+    padding-right: 0;
+  }
+}
 .faqs {
   padding: 100px 0;
   background-color: #58E065;

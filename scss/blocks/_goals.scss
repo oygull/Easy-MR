@@ -54,4 +54,16 @@
     .goals{
         padding: 30px 0;
     }
+    .footer-logo{
+        display: none;
+    }
 }
+
+@media only screen and (max-width: 540px)  {
+    .goals__item{
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+  
+}
+

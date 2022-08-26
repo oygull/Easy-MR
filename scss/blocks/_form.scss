@@ -56,3 +56,8 @@
 .form__inner{
     justify-content: space-between;
 }
+@media only screen and (max-width: 7200px)  {
+    .form__main{
+        padding-right: 0;
+    }
+}
