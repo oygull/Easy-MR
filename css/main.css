@@ -643,6 +643,11 @@ img {
   display: none;
 }
 
+.faqs__item {
+  border-bottom: 1px solid #000;
+  padding: 5px 0;
+}
+
 .openUp {
   display: block;
 }
