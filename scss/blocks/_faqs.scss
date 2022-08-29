@@ -8,9 +8,10 @@
     list-style: none;
 }
 .faqs__ques{
+    font-weight: 500;
     cursor: pointer;
     &:hover{
-        font-weight: 600;
+        color: rgba(0, 0, 0, 0.521)
     }
     @include flex-between();
     span{
@@ -36,4 +37,8 @@
 }
 .hide-btn{
     display: block;
+}
+#langImg{
+    width: 20px;
+    height: 16px;
 }

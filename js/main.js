@@ -35,3 +35,22 @@ lang__item.forEach(item => {
     })
    
 })
+
+
+
+let engLang = document.querySelector('#engLang');
+let ruLang = document.querySelector('#ruLang');
+let uzbLang = document.querySelector('#uzbLang');
+
+
+engLang.addEventListener('click', ()=>{
+    document.getElementById("langImg").src="./images/eng.svg";
+})
+
+ruLang.addEventListener('click', ()=>{
+    document.getElementById("langImg").src="./images/ru.png";
+})
+
+uzbLang.addEventListener('click', ()=>{
+    document.getElementById("langImg").src="./images/uzb.jpg";
+})

@@ -52,6 +52,10 @@
     width: 170px;
     text-align: center;
     margin-bottom: 20px;
+
+        &:hover{
+            background-color: #efdcac ;
+        }
 }
 .form__inner{
     justify-content: space-between;

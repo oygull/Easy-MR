@@ -519,6 +519,12 @@ img {
   padding: 20px;
   height: 440px;
 }
+.card__inner button {
+  border: 3px solid transparent;
+}
+.card__inner button:hover {
+  border-color: #123301;
+}
 
 .card__price {
   font-weight: 800;
@@ -638,6 +644,9 @@ img {
   text-align: center;
   margin-bottom: 20px;
 }
+.form__btm:hover {
+  background-color: #efdcac;
+}
 
 .form__inner {
   justify-content: space-between;
@@ -658,13 +667,14 @@ img {
 }
 
 .faqs__ques {
+  font-weight: 500;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .faqs__ques:hover {
-  font-weight: 600;
+  color: rgba(0, 0, 0, 0.521);
 }
 .faqs__ques span {
   font-size: 20px;
@@ -692,6 +702,11 @@ img {
 
 .hide-btn {
   display: block;
+}
+
+#langImg {
+  width: 20px;
+  height: 16px;
 }
 
 .site-footer {
