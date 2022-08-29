@@ -23,6 +23,7 @@ body {
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
   background-color: #fff;
+  padding-top: 80px;
 }
 
 img {
@@ -65,6 +66,14 @@ img {
 
 .site-header {
   border-bottom: 1px solid #EDEDED;
+  position: fixed;
+  width: 100vw;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .nav__list {
@@ -83,6 +92,29 @@ img {
 
 .header__lang {
   margin-left: 20px;
+  position: relative;
+}
+
+.lang__list {
+  display: none;
+  position: absolute;
+  top: 6px;
+  left: -10px;
+  list-style: none;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+
+.lang__item {
+  font-size: 12px;
+  margin: 7px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+.lang__item:hover {
+  color: rgb(4, 0, 255);
 }
 
 .nav__item {
@@ -145,6 +177,9 @@ img {
     background-color: rgba(0, 0, 0, 0.521);
     overflow: hidden;
   }
+  .site-header {
+    height: 60px;
+  }
   .nav__list {
     padding: 20px 0;
     position: absolute;
@@ -203,6 +238,10 @@ img {
 
 .open-bg {
   width: 100vw;
+}
+
+.hideList {
+  display: block;
 }
 
 .hero {
@@ -620,7 +659,6 @@ img {
 
 .faqs__ques {
   cursor: pointer;
-  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: space-between;
